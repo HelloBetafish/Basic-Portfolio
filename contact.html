@@ -5,13 +5,15 @@
 	<meta charset="utf-8">
 	<title>Contact Page</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!--favicon from https://www.freefavicon.com/-->
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
 
 	<!-- Header and Navigation at top of page-->
 	<header> 
-		<h1>Bethany Pfeister</h1>
+		<a href="index.html"><h1>Bethany Pfeister</h1></a>
 		<nav>
 			<ul>
 				<li><a href="index.html">About</a></li>
@@ -28,34 +30,37 @@
 			<h2>Contact</h2>
 			<form action="mailto:bethanypfeister@gmail.com" method="post" enctype="text/plain">
 				Name<br>
-				<input type="text" name="name">
+				<input type="text" name="name" placeholder="John Smith">
 				<br>
 				Email<br>
-				<input type="email" name="email">
+				<input type="email" name="email" placeholder="example@gmail.com">
 				<br>
 				Message<br>
 				<textarea name="message" rows="10" cols="30">
 				</textarea>
 				<br>
-				<input type="submit" value="Submit">
+				<input type="submit" value="Submit" class="formbutton">
 			</form>
 		</section>
 
 		<!--Connect Links-->
 		<aside>
 			<h3>Connect with Me</h3>
+			<!--Icons from www.iconfinder.com-->
 			<!--GitHub account-->
-			<a href="https://github.com/HelloBetafish" target="_blank">
-				<img src="assets/images/if_github2_252065.png" alt="GitHub">
-			</a>
+			<ul>
+				<li><a href="https://github.com/HelloBetafish" target="_blank">
+				<img src="assets/images/if_github2_252065.png" alt="GitHub"></a>
+				</li>
 			<!--Linked in account-->
-			<a href="https://www.linkedin.com/in/bethany-pfeister-2b8973a5/" target="_blank">
-				<img src="assets/images/if_linkedin_386655.png" alt="LinkedIn">
-			</a>
+				<li><a href="https://www.linkedin.com/in/bethany-pfeister-2b8973a5/" target="_blank">
+				<img src="assets/images/if_linkedin_386655.png" alt="LinkedIn"></a>
+				</li>
 			<!--Stack Overflow account-->
-			<a href="https://stackoverflow.com/users/8095739/betafish?tab=profile" target="_blank">
-				<img src="assets/images/if_overflow_386674.png" alt="Stack Overflow">
-			</a>
+				<li><a href="https://stackoverflow.com/users/8095739/betafish?tab=profile" target="_blank">
+				<img src="assets/images/if_overflow_386674.png" alt="Stack Overflow"></a>
+				</li>
+			</ul>
 		</aside>
 	</div>
 
